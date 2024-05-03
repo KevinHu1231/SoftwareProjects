@@ -1,0 +1,1 @@
+Run lab3.py and make sure image_folder.zip and lab3_pose.csv are in the same directory as lab3.py.
