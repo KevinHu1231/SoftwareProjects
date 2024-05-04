@@ -1,0 +1,14 @@
+T = 1/17.13;
+Kp = 2.46*T;
+A = [0 1; 0 -1/T];
+B = [0; Kp/T];
+C = [1 0];
+K = [-274.1012 -5.5167];
+L = [62.87; 523.04];
+I = eye(2);
+A_L = A.';
+B_L = C.';
+K_poles = [-15.35+20.94i; -15.35-20.94i];
+L_poles = [-40; -40];
+K_acker = acker(A,-B,K_poles)
+L_acker = acker(A_L,B_L,L_poles)
