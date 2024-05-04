@@ -1,0 +1,42 @@
+clear
+clc
+
+syms x y th T v om w1 w2 d
+syms xl yl []
+
+all = [x y th T v om w1 w2 xl yl d nl1 nl2];
+
+assume(x, "real");
+assume(y, "real");
+assume(th, "real");
+assume(T, "real");
+assume(v, "real");
+assume(om, "real");
+assume(w1, "real");
+assume(w2, "real");
+assume(xl, "real");
+assume(yl, "real");
+assume(d, "real");
+assume(nl1, "real");
+assume(nl2, "real");
+
+h = [x + T*cos(th)*(v+w1); y + T*sin(th)*(v+w1) ; th + T*(om+w2)];
+h_syms = [x,y,th,v,om,w1,w2,T];
+
+x_ = [x,y,th];
+F = jacobian(h,x_)
+F_syms = [th, v, w1, T];
+
+gl = [sqrt((xl - x - d*cos(th))^2 + (yl - y - d*sin(th))^2) + nl1 ; atan2((yl - y - d*sin(th)), (xl - x - d*cos(th))) - th + nl2];
+gl_syms = [x,y,th,xl,yl,nl1,nl2];
+
+G_l = jacobian(gl,x_)
+G_l_syms = [x,y,th,xl,yl,nl1,nl2];
+
+w_ = [w1,w2];
+nl_ = [nl1,nl2];
+w_p = jacobian(h,w_)
+nl_p = jacobian(gl,nl_)
+
+
+

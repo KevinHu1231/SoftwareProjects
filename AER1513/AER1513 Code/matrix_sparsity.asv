@@ -1,0 +1,7 @@
+A = eye(9)
+B = zeros(9,1)
+C = [B,A]
+D = [-A,B]
+
+
+spy(R)

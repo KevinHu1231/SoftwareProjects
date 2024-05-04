@@ -1,0 +1,16 @@
+function Rp = Rp(l,r_var,b_var)
+    L = size(l,1);
+    dia = zeros(L,1);
+    for i = 1:L
+        if mod(i,2) == 1
+            y(i) = r_var;
+        else
+            y(i) = bi(i/2);
+        end
+    end
+
+    Rp_block = zeros(2,2);
+    Rp_block(1,1) = r_var;
+    Rp_block(2,2) = b_var;
+    Rp = repmat(Rp_block,L,L);
+end
