@@ -1,4 +1,4 @@
-# Courses
+Courses:
 
 AER1216 - Fundamentals of Unmanned Aerial Vehicles
 
@@ -7,6 +7,8 @@ AER1217 - Development of Autonomous Unmanned Aerial Vehicles
 AER1513 - State Estimation for Aerospace Vehicles
 
 AER1515 - Perceptions for Robotics
+
+![Chart](https://github.com/KevinHu1231/SoftwareProjects/blob/main/Drone_Segmentation_Project/AER1515%20Final%20Project/Accuracy_bs_16_lr_1e-05_e_50.png)
 
 AER1516 - Robot Motion Planning
 
@@ -33,6 +35,4 @@ ROB521 - Mobile Robotics and Perception
 Thesis - Deformable Registration for Image Guided Robotics
 
 
-# Programming Languages
-
-Python, MATLAB, C++
+Programming Languages: Python, MATLAB, C++
