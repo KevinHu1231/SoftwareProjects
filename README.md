@@ -1,4 +1,4 @@
-Courses:
+# Courses
 
 AER1216 - Fundamentals of Unmanned Aerial Vehicles
 
@@ -33,4 +33,6 @@ ROB521 - Mobile Robotics and Perception
 Thesis - Deformable Registration for Image Guided Robotics
 
 
-Programming Languages: Python, MATLAB, C++
+# Programming Languages
+
+Python, MATLAB, C++
