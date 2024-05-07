@@ -26,27 +26,43 @@ A course on machine learning fundamentals. Content includes doing many labs on a
 
 ## Capstone - Drone Capstone Project
 
-A capstone project in a group of 4 to build and design a drone from scratch to perform several tasks critical from nuclear safety inspections. Tasks in order are building the drone, making the drone hover in place 1m from the ground, making the drone travel to waypoints, and to autonomously avoid coloured obstacles by turning in certain directions. Drone is equipped with a computer vision object detection algorithm (YoloV5), visual SLAM for accurate localization using visual inertial odometry (VIO) and trajectory rollout based RRT* motion planning. Projects involves heavy use of ROSPy and ROSCPP, RViz and Gazebo for drone simulation, and code written in Python and C++ programming languages.
+A capstone project in a group of 4 to build and design a drone from scratch to perform several tasks critical from nuclear safety inspections. Tasks in order are building the drone, making the drone hover in place 1m from the ground, making the drone travel to waypoints, and to autonomously avoid coloured obstacles by turning in certain directions. Drone is equipped with a computer vision object detection algorithm (YoloV5), visual SLAM for accurate localization using visual inertial odometry (VIO) and trajectory rollout based RRT* motion planning. Projects involves heavy use of ROSPy and ROSCPP, RViz and Gazebo for drone simulation, and code written in Python and C++ programming languages. Majority of code is not public.
 
 ## CSC412 - Probabilistic Learning and Reasoning
 
-Course involves complex mathematical probabilistic learning and reasoning concepts and applications in programming. Involves three programming assignments. The first assignment is about decision theory and a naive Bayes generative model for fashion MNIST dataset. The second assignment is about image denoising using the Loopy BP algorithm and Markov chain Hamiltonian Monte Carlo in the TrueSkill model. The third assignment is about Stochastic Variational Inference in the TrueSkill model and training a variational autoencoder (VAE) on synthetic data.
+Course involves complex mathematical probabilistic learning and reasoning concepts and applications in programming. Involves three programming assignments. The first assignment is about decision theory and a naive Bayes generative model for fashion MNIST dataset. The second assignment is about image denoising using the Loopy BP algorithm and Markov chain Hamiltonian Monte Carlo in the TrueSkill model. The third assignment is about Stochastic Variational Inference in the TrueSkill model and training a variational autoencoder (VAE) on synthetic data. Programming is done in Python.
 
 ## CSC413 - Neural Networks and Deep Learning
 
+Course taught by Adam Optimizer publisher Jimmy Ba, teaching state-of-the-art neural network and deep learning techniques. Course consisted of a series of assignments and a final project. Assignments involves creating convolutional neural networks (CNNs), creating attention based transformers for large language modelling, exploring Glove embeddings, BERT, and CLIP networks, developing Graph Attention (GAT), Graph Convolution (GCN), and Deep Q Networks (DQNs), and using large language models (LLMs). Final project involved using CNNs and transfer learning to identify COVID in patients with X-ray images. Programming is done in Python.
+
 ## ECE470 - Robot Modelling and Control 
+
+Course about modelling and controlling manipulator robots. Majority of course involved doing written homework problems but a portion of the course involved doing practicals with KUKA and PUMA560 robots. One practical involved simulating a PUMA560 robot in MATLAB using the Robotics Toolbox by implementing the forward and inverse kinematics.
 
 ## ECE557 - Linear Control Theory
 
+Course about linear control theory which included doing written homework problems and multiple practicals about balancing an inverted pendulum on a moving cart. Majority of linear control theory calculations, modelling, and plotting is done using MATLAB and Simulink. 
+
 ## ECE1647 - Introduction to Nonlinear Control Systems
+
+Course about nonlinear control systems which included doing written homework problems and a final project and report. The final project involved exploring nonlinear control techniques for drone control including feedback linearization, integral backstepping, and sliding mode control. Exploration about the techniques were done in Simulink. 
 
 ## ECE1658 - Geometric Nonlinear Control of Robotics
 
+Advanced course about nonlinear control of walking robots using Virtual Holonomic Constraints (VHCs). The course involves a series of assignments with a final project. One assignment involved simulating a five-link, six-joint, 2D walking robot with feedback linearization based control in MATLAB. One assignment involves simulating a bicycle model robot following a circular trajectory due to stabilizing the zero dynamics manifold. The final project involved simulating an acrobot walking gait to perform stable walking in MATLAB both using preexisting parameters and finding optimal parameters using an optimization formulation and solving the optimization problem using MATLAB fmincon. The final project also involved a creative portion simulating an acrobot walkover gait.   
+
 ## ROB501 - Computer Vision for Robotics
+
+Course is about different computer vision techniques used in robotics applications. The course involves multiple programming assignments involving homography techniques, landmark and camera pose estimation, stereo vision depth map generation, visual servoing, and determining the direction of the sun using convolutional neural networks (CNNs). Course also included a hackathon to create a panorama using feature detection and matching with OpenCV. Programming is done in Python.
 
 ## ROB521 - Mobile Robotics and Perception
 
-## Thesis - Deformable Registration for Image Guided Robotics
+Course is about advanced concepts about mobile robotics and includes both programming assignments in MATLAB and doing practicals with TurtleBots and programming using ROSPy. Programming assignments involve coding a wheel odometry algorithm and building a map using wheel odometry, coding a occupancy grid algorithm and a particle filter to localize within a known map, and implementing a probabilistic roadmap (PRM) algorithm to generate paths in a maze to solve using the A* algorithm. Labs involve navigating a TurtleBot through a maze using RRT* and calculating the wheel radius of the TurtleBot using dead reckoning. 
+
+## Thesis - Deformable Image Registration for Image Guided Robotics
+
+The thesis project is about deformable image registration for image guided robotics. The project involves integrating a Franka Emika Panda robot with open source medical imaging software 3D Slicer using ROS2. In addition, there is a camera streaming images of a deformable model to the medical imaging software and a model of the robot is loaded into the software. The deformable model image is registered to the robot using a deformable image registration neural network Voxelmorph. All the code involving 3D Slicer is written in C++ and RCLCPP and the code for controlling the robot uses the C++ MoveIt library. The code for image registration and streaming is written in Python and RCLPY. Additional research was performed in the summer, implementing rigid registration instead of deformable image registration using the same setup by tracking Aruco markers in the streamed images for higher accuracy.
 
 # Programming Languages
 
