@@ -9,7 +9,7 @@ Course for learning UAVs fundamentals for fixed-wing and multirotor UAVs. Involv
 Course for learning multirotor UAV software algorithms. Involves doing multiple laboratory projects that build into a quadrotor racing final project. Final project includes developing a RRT* based algorithm to pass through gates and avoid obstacles, testing on a PyBullet drone simulator, and testing on Crazyflie drones in real life. Laboratories include programming drones to fly to waypoints and flying in circular trajectories in a PyBullet drone simulator, vision-based landmark state estimation from drones using OpenCV algorithms, and visual odometry based localization of a cyclist's trajectory using scalar based point cloud alignment techniques, RANSAC, and OpenCV feature detectors. Majority of the programming is in Python.
 
 ![Python](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_py.png)![Simulation](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_sim.png)
-![Video](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/video.avi)![Graph](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_traj.png)
+![Video](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_video.gif)![Graph](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_traj.png)
 
 ## AER1513 - State Estimation for Aerospace Vehicles
 
