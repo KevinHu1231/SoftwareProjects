@@ -68,6 +68,14 @@ Binary Segmentation Results
 
 A course on robot motion planning algorithms. The course consists of two programming assignments and a final project. The first programming assignment uses Dubins path to implement an RRT* path planner for robots. The second assignment uses an extended Kalman filter (EKF) to perform state estimation of a mobile robot travelling in a figure eight. The final project involves training a drone in a Unity based simulator AirSim to avoid obstacles in a simulation environment using state-of-the-art reinforcement techniques including using Deep Q-Networks (DQNs), policy gradients, and the TD3 algorithm. Programming is done in Python.
 
+![RRT](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1516_rrt.png)
+
+Dubins Path RRT* Algorithm
+
+![Sim](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1516_train.gif)
+
+Autonomous Drone Reinforcement Learning Training
+
 ## APS360 - Artificial Intelligence Fundamentals
 
 A course on machine learning fundamentals. Content includes doing many labs on artificial neural networks (ANNs), convolutional neural networks (CNNs), recurrent neural networks (RNNs), autoencoders, and generative adversarial networks (GANs). Gesture recognition and spam detection are example labs. Final project involved using an ANN to analyze hockey statistics to create NHL draft rankings based on data from previous years. Programming is done in Python, using PyTorch for machine learning.
