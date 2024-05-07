@@ -8,9 +8,13 @@ Course for learning UAVs fundamentals for fixed-wing and multirotor UAVs. Involv
 
 Course for learning multirotor UAV software algorithms. Involves doing multiple laboratory projects that build into a quadrotor racing final project. Final project includes developing a RRT* based algorithm to pass through gates and avoid obstacles, testing on a PyBullet drone simulator, and testing on Crazyflie drones in real life. Laboratories include programming drones to fly to waypoints and flying in circular trajectories in a PyBullet drone simulator, vision-based landmark state estimation from drones using OpenCV algorithms, and visual odometry based localization of a cyclist's trajectory using scalar based point cloud alignment techniques, RANSAC, and OpenCV feature detectors. Majority of the programming is in Python.
 
-![Python](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_py.png)![Simulation](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_sim.png)
+![Python](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_py.png)
 
-Python and PyBullet Drone Simulation
+RRT* Path Planning in Python
+
+![Simulation](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_sim.png)
+
+PyBullet Drone Simulation
 
 ![Video](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1217_video.gif)
 
@@ -27,6 +31,38 @@ An in depth course on state-of-the-art state estimation techniques for robots. C
 ## AER1515 - Perception for Robotics
 
 A broad course on state-of-the-art perception techniques for robotics. The course involves doing three assignments on robotic perception algorithms and doing a robotic perception final project. The first assignment involved creating an animal face classification convolutional neural network. The second assignment involved using feature detection and matching algorithms from OpenCV, and aligning point clouds using iterated closest point (ICP) algorithm. The third assignment uses the KITTI dataset to perform depth estimation, using YOLO for object detection in order to do segmentation. The final project uses aerial images from drones and the goal is to segment the images into different landmark types. State-of-the-art segmentation networks like DeepLabV3 is used to perfrom segmentation. The purpose of the project is to implement the algorithm on drones in order to for the drones to plant tree seeds in optimal areas for growth. Programming is in Python.
+
+![PC](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_pc1.png)
+
+![PC](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_pc2.png)
+
+Point Cloud Alignment
+
+![Detection](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_kp.png)
+
+Keypoint Detection using OpenCV
+
+![Match](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_match1.png)
+
+![Match](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_match2.png)
+
+Keypoint Matching using OpenCV
+
+![MC GT](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_m.png)
+
+Multi-Class Segmentation Ground Truth
+
+![B GT](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_b.png)
+
+Binary Segmentation Ground Truth
+
+![MC R](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_mres.png)
+
+Multi-Class Segmentation Results
+
+![B R](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1515_bres.png)
+
+Binary Segmentation Results
 
 ## AER1516 - Robot Motion Planning
 
