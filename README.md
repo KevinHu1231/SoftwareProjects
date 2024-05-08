@@ -78,7 +78,7 @@ Autonomous Drone Reinforcement Learning Training
 
 ![Sim Test](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1516_test.gif)
 
-Autonomous Drone Reinforcement Learning Testing
+Autonomous Drone Reinforcement Learning Results
 
 ## APS360 - Artificial Intelligence Fundamentals
 
@@ -96,7 +96,7 @@ A capstone project in a group of 4 to build and design a drone from scratch to p
 
 Drone Trajectory Visualization
 
-![Flight](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/capstone_traj.gif)
+![Flight](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/capstone_flight.gif)
 
 Drone Waypoint Flight
 
@@ -106,7 +106,11 @@ Course involves complex mathematical probabilistic learning and reasoning concep
 
 ![F Pred](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/csc412_pred.png)
 
+Fashion MNIST Prediction
+
 ![Den](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/csc412_den.png)
+
+Image Denoising
 
 ## CSC413 - Neural Networks and Deep Learning
 
@@ -114,7 +118,11 @@ Course taught by Adam Optimizer publisher Jimmy Ba, teaching state-of-the-art ne
 
 ![P Ub](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/csc413_pub.gif)
 
+Reinforcement Learning Inverted Pendulum Balancing Training
+
 ![P B](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/csc413_pb.gif)
+
+Reinforcement Learning Inverted Pendulum Balancing Results
 
 ## ECE470 - Robot Modelling and Control 
 
