@@ -76,6 +76,10 @@ Dubins Path RRT* Algorithm
 
 Autonomous Drone Reinforcement Learning Training
 
+![Sim Test](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/aer1516_test.gif)
+
+Autonomous Drone Reinforcement Learning Testing
+
 ## APS360 - Artificial Intelligence Fundamentals
 
 A course on machine learning fundamentals. Content includes doing many labs on artificial neural networks (ANNs), convolutional neural networks (CNNs), recurrent neural networks (RNNs), autoencoders, and generative adversarial networks (GANs). Gesture recognition and spam detection are example labs. Final project involved using an ANN to analyze hockey statistics to create NHL draft rankings based on data from previous years. Programming is done in Python, using PyTorch for machine learning.
@@ -84,13 +88,33 @@ A course on machine learning fundamentals. Content includes doing many labs on a
 
 A capstone project in a group of 4 to build and design a drone from scratch to perform several tasks critical from nuclear safety inspections. Tasks in order are building the drone, making the drone hover in place 1m from the ground, making the drone travel to waypoints, and to autonomously avoid coloured obstacles by turning in certain directions. Drone is equipped with a computer vision object detection algorithm (YoloV5), visual SLAM for accurate localization using visual inertial odometry (VIO) and trajectory rollout based RRT* motion planning. Projects involves heavy use of ROSPy and ROSCPP, RViz and Gazebo for drone simulation, and code written in Python and C++ programming languages. Majority of code is not public.
 
+![Hardware1](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/capstone_h2.png)
+
+![Hardware2](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/capstone_h.png)
+
+![Sim](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/capstone_traj.gif)
+
+Drone Trajectory Visualization
+
+![Flight](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/capstone_traj.gif)
+
+Drone Waypoint Flight
+
 ## CSC412 - Probabilistic Learning and Reasoning
 
 Course involves complex mathematical probabilistic learning and reasoning concepts and applications in programming. Involves three programming assignments. The first assignment is about decision theory and a naive Bayes generative model for fashion MNIST dataset. The second assignment is about image denoising using the Loopy BP algorithm and Markov chain Hamiltonian Monte Carlo in the TrueSkill model. The third assignment is about Stochastic Variational Inference in the TrueSkill model and training a variational autoencoder (VAE) on synthetic data. Programming is done in Python.
 
+![F Pred](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/csc412_pred.png)
+
+![Den](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/csc412_den.png)
+
 ## CSC413 - Neural Networks and Deep Learning
 
 Course taught by Adam Optimizer publisher Jimmy Ba, teaching state-of-the-art neural network and deep learning techniques. Course consisted of a series of assignments and a final project. Assignments involves creating convolutional neural networks (CNNs), creating attention based transformers for large language modelling, exploring Glove embeddings, BERT, and CLIP networks, developing Graph Attention (GAT), Graph Convolution (GCN), and Deep Q Networks (DQNs), and using large language models (LLMs). Final project involved using CNNs and transfer learning to identify COVID in patients with X-ray images. Programming is done in Python.
+
+![P Ub](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/csc413_pub.gif)
+
+![P B](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/csc413_pb.gif)
 
 ## ECE470 - Robot Modelling and Control 
 
