@@ -138,7 +138,15 @@ Course about nonlinear control systems which included doing written homework pro
 
 ## ECE1658 - Geometric Nonlinear Control of Robotics
 
-Advanced course about nonlinear control of walking robots using Virtual Holonomic Constraints (VHCs). The course involves a series of assignments with a final project. One assignment involved simulating a five-link, six-joint, 2D walking robot with feedback linearization based control in MATLAB. One assignment involves simulating a bicycle model robot following a circular trajectory due to stabilizing the zero dynamics manifold. The final project involved simulating an acrobot walking gait to perform stable walking in MATLAB both using preexisting parameters and finding optimal parameters using an optimization formulation and solving the optimization problem using MATLAB fmincon. The final project also involved a creative portion simulating an acrobot walkover gait.   
+Advanced course about nonlinear control of walking robots using Virtual Holonomic Constraints (VHCs). The course involves a series of assignments with a final project. One assignment involved simulating a five-link, six-joint, 2D walking robot with feedback linearization based control in MATLAB. One assignment involves simulating a bicycle model robot following a circular trajectory due to stabilizing the zero dynamics manifold. The final project involved simulating an acrobot walking gait to perform stable walking in MATLAB both using preexisting parameters and finding optimal parameters using an optimization formulation and solving the optimization problem using MATLAB fmincon. The final project also involved a creative portion simulating an acrobot walkover gait.
+
+![WA](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/ece1658_org.gif)
+
+Walking Acrobot
+
+![OWA](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/ece1658_opt.gif)
+
+Optimized Walking Acrobot
 
 ## ROB501 - Computer Vision for Robotics
 
@@ -146,11 +154,31 @@ Course is about different computer vision techniques used in robotics applicatio
 
 ## ROB521 - Mobile Robotics and Perception
 
-Course is about advanced concepts about mobile robotics and includes both programming assignments in MATLAB and doing practicals with TurtleBots and programming using ROSPy. Programming assignments involve coding a wheel odometry algorithm and building a map using wheel odometry, coding a occupancy grid algorithm and a particle filter to localize within a known map, and implementing a probabilistic roadmap (PRM) algorithm to generate paths in a maze to solve using the A* algorithm. Labs involve navigating a TurtleBot through a maze using RRT* and calculating the wheel radius of the TurtleBot using dead reckoning. 
+Course is about advanced concepts about mobile robotics and includes both programming assignments in MATLAB and doing practicals with TurtleBots and programming using ROSPy. Programming assignments involve coding a wheel odometry algorithm and building a map using wheel odometry, coding a occupancy grid algorithm and a particle filter to localize within a known map, and implementing a probabilistic roadmap (PRM) algorithm to generate paths in a maze to solve using the A* algorithm. Labs involve navigating a TurtleBot through a maze using RRT* and calculating the wheel radius of the TurtleBot using dead reckoning.
+
+![Maze1](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/rob521_m1.png)
+
+![Maze2](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/rob521_m2.png)
+
+PRM and A* Maze Solver
+
+![Map](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/rob521_map.gif)
+
+Mobile Robot Sensor Mapping Using MATLAB and Gazebo
+
+![Detect](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/rob521_detect.gif)
+
+Mobile Robot Sensor Detection Using MATLAB and Gazebo
+
+![Filter](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/rob521_pfilt.gif)
+
+Mobile Robot Particle Filter Using MATLAB and Gazebo
 
 ## Thesis - Deformable Image Registration for Image Guided Robotics
 
 The thesis project is about deformable image registration for image guided robotics. The project involves integrating a Franka Emika Panda robot with open source medical imaging software 3D Slicer using ROS2. In addition, there is a camera streaming images of a deformable model to the medical imaging software and a model of the robot is loaded into the software. The deformable model image is registered to the robot using a deformable image registration neural network Voxelmorph. All the code involving 3D Slicer is written in C++ and RCLCPP and the code for controlling the robot uses the C++ MoveIt library. The code for image registration and streaming is written in Python and RCLPY. Additional research was performed in the summer, implementing rigid registration instead of deformable image registration using the same setup by tracking Aruco markers in the streamed images for higher accuracy. Majority of code is not made public.
+
+
 
 # Programming Languages
 
