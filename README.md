@@ -1,3 +1,7 @@
+# Programming Languages
+
+Python, MATLAB, C++
+
 # Courses and Course Projects
 
 ## AER1216 - Fundamentals of Unmanned Aerial Vehicles
@@ -185,7 +189,3 @@ Image Guided Robot in 3D Slicer without Deformable Image Registration
 ![Img Reg](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/thesis_imgreg.gif)
 
 Image Guided Robot in 3D Slicer with Deformable Image Registration
-
-# Programming Languages
-
-Python, MATLAB, C++
