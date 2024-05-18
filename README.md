@@ -178,7 +178,13 @@ Mobile Robot Particle Filter Using MATLAB and Gazebo
 
 The thesis project is about deformable image registration for image guided robotics. The project involves integrating a Franka Emika Panda robot with open source medical imaging software 3D Slicer using ROS2. In addition, there is a camera streaming images of a deformable model to the medical imaging software and a model of the robot is loaded into the software. The deformable model image is registered to the robot using a deformable image registration neural network Voxelmorph. All the code involving 3D Slicer is written in C++ and RCLCPP and the code for controlling the robot uses the C++ MoveIt library. The code for image registration and streaming is written in Python and RCLPY. Additional research was performed in the summer, implementing rigid registration instead of deformable image registration using the same setup by tracking Aruco markers in the streamed images for higher accuracy. Majority of code is not made public.
 
+![No Reg](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/thesis_noreg.gif)
 
+Image Guided Robot in 3D Slicer without Deformable Image Registration
+
+![Img Reg](https://github.com/KevinHu1231/SoftwareProjects/blob/main/_/thesis_imgreg.gif)
+
+Image Guided Robot in 3D Slicer with Deformable Image Registration
 
 # Programming Languages
 
